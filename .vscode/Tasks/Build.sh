@@ -2,6 +2,6 @@
 
 bun build                                    \
     --tsconfig-override Source/tsconfig.json \
-    --outfile "Bundle/$1.js"                 \
+    --outfile "Bundle/Scripts/$1.js"                 \
     --watch                                  \
     "Source/$1/mod.ts"
