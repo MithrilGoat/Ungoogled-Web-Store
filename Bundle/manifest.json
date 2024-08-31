@@ -6,6 +6,11 @@
 
     "background" : {
         "service_worker" : "Background.js"
+    "icons" : {
+        "128" : "Assets/Icons/Extension/128.png" ,
+        "64" : "Assets/Icons/Extension/64.png" ,
+        "32" : "Assets/Icons/Extension/32.png" ,
+        "16" : "Assets/Icons/Extension/16.png"
     },
 
     "manifest_version" : 3
