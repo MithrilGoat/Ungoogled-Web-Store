@@ -5,6 +5,10 @@
         "service_worker" : "Scripts/Background.js"
     },
 
+    "storage" : {
+        "managed_schema" : "Assets/Storage.json"
+    },
+
     "action" : {
 
         "default_title" : "__MSG_Meta_Name__" ,
