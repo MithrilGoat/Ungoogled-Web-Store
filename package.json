@@ -1,0 +1,16 @@
+{
+    "private" : true ,
+
+    "scripts" : {
+        "build" : "sh .vscode/Tasks/Build.sh" ,
+        "dev" : "sh .vscode/Tasks/Dev.sh"
+    },
+
+    "peerDependencies" : {
+        "typescript" : "^5.5.3"
+    },
+
+    "devDependencies" : {
+        "@types/chrome" : "^0.0.270"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "short_name" : "Webstore" ,
+    "name" : "Ungoogled Webstore" ,
+
+    "version" : "1.0.0" ,
+
+    "background" : {
+        "service_worker" : "Background.js"
+    },
+
+    "manifest_version" : 3
+}
