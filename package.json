@@ -1,6 +1,8 @@
 {
     "private" : true ,
 
+    "type" : "module" ,
+
     "scripts" : {
         "build" : "sh .vscode/Tasks/Build.sh" ,
         "dev" : "sh .vscode/Tasks/Dev.sh"
@@ -12,5 +14,10 @@
 
     "devDependencies" : {
         "@types/chrome" : "^0.0.270"
+    },
+
+    "dependencies" : {
+        "SemVer": "npm:@jsr/std__semver@^1.0.2" ,
+        "preact": "^10.23.2"
     }
 }
