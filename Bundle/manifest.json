@@ -1,7 +1,4 @@
 {
-    "short_name" : "Webstore" ,
-    "name" : "Ungoogled Webstore" ,
-
     "version" : "1.0.0" ,
 
     "background" : {
@@ -10,7 +7,7 @@
 
     "action" : {
 
-        "default_title" : "__MSG_extension_Name__" ,
+        "default_title" : "__MSG_Meta_Name__" ,
         "default_popup" : "Pages/Popup.html" ,
 
         "default_icon" : {
@@ -26,6 +23,10 @@
         "32" : "Assets/Icons/Extension/32.png" ,
         "16" : "Assets/Icons/Extension/16.png"
     },
+
+    "default_locale" : "en" ,
+    "short_name" : "__MSG_Meta_Name_Short__" ,
+    "name" : "__MSG_Meta_Name__" ,
 
     "manifest_version" : 3
 }

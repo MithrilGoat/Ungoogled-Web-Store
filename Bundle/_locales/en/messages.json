@@ -1,0 +1,11 @@
+{
+    "Meta_Name" : {
+        "description" : "" ,
+        "message" : "Ungoogled Webstore"
+    },
+
+    "Meta_Name_Short" : {
+        "description" : "" ,
+        "message" : "Webstore"
+    }
+}
