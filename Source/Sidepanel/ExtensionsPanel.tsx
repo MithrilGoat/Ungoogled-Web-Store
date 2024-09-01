@@ -1,5 +1,5 @@
 
-export { Component }
+export { Component as ExtensionsPanel }
 
 import { useExtensionInfos } from './Extensions'
 
