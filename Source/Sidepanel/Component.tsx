@@ -10,7 +10,28 @@ function Component (){
 
     const infos = useExtensionInfos()
 
+    if( infos.isLoading )
+        return 'Loading ..'
+
+    if( infos.isError )
+        throw `Shouldn't error ever`
+
+    if( infos.isPending )
+        return 'Pending ..'
+
+    const items = infos.data.map(( info ) => {
+
+        return (
+            <li key = { info.id } >
+                <h3> { info.name } </h3>
+            </li>
+        )
+    })
+
     return (
-        <div children = { infos.data?.length ?? 'test' } />
+        <ul
+            className = 'Infos'
+            children = { items }
+        />
     )
 }

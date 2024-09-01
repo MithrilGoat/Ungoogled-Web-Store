@@ -3,3 +3,33 @@
 html {
     background : darkslategrey ;
 }
+
+body {
+    padding : 1rem ;
+}
+
+.Infos {
+
+    list-style : none ;
+
+    flex-direction : column ;
+    display : flex ;
+    gap : 0.5rem ;
+
+    > li {
+
+        border-radius : 0.75rem ;
+        border : 2px solid white ;
+
+        padding : 1rem ;
+
+        &:hover {
+            background : #FFFFFF22 ;
+        }
+
+        > h3 {
+            font-weight : bold ;
+        }
+    }
+}
+
