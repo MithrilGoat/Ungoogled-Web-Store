@@ -1,21 +1,16 @@
 
 export { Component }
 
-import { useState } from 'preact/hooks'
+import { useExtensionInfos } from './Extensions'
 
 
 function Component (){
 
-    const [ text , setText ] = useState('Before Click')
+    console.debug('Testing')
 
-    const click = () => {
-        setText('After Click')
-    }
+    const infos = useExtensionInfos()
 
     return (
-        <div
-            children = { text }
-            onClick = { click }
-        />
+        <div children = { infos.data?.length ?? 'test' } />
     )
 }

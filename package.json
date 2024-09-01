@@ -17,7 +17,8 @@
     },
 
     "dependencies" : {
-        "SemVer": "npm:@jsr/std__semver@^1.0.2" ,
-        "preact": "^10.23.2"
+        "@tanstack/react-query" : "^5.53.1" ,
+        "SemVer" : "npm:@jsr/std__semver@^1.0.2" ,
+        "preact" : "^10.23.2"
     }
 }

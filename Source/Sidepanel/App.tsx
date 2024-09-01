@@ -1,10 +1,20 @@
 
 export { hookApp }
 
+import { QueryProvider } from './Query'
 import { Component } from './Component'
 import { render } from 'preact'
 
 
+function Root (){
+    return (
+        <QueryProvider>
+            <Component />
+        </QueryProvider>
+    )
+}
+
+
 function hookApp (){
-    render(<Component />,document.body)
+    render(<Root />,document.body)
 }
