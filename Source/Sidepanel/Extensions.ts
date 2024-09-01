@@ -2,7 +2,7 @@
 export { useExtensionInfos }
 
 import { useQueryClient , useQuery } from '@tanstack/react-query'
-import { useEffect } from 'preact/hooks'
+import { useEffect } from 'react'
 
 
 const { management } = chrome

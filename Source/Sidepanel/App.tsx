@@ -2,8 +2,8 @@
 export { hookApp }
 
 import { QueryProvider } from './Query'
+import { createRoot } from 'react-dom/client'
 import { Component } from './Component'
-import { render } from 'preact'
 
 
 function Root (){
@@ -16,5 +16,11 @@ function Root (){
 
 
 function hookApp (){
-    render(<Root />,document.body)
+
+    const node = document
+        .querySelector('main')!
+
+    const root = createRoot(node)
+
+    root.render( <Root /> )
 }

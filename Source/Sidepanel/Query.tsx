@@ -1,7 +1,7 @@
 
 export { Provider as QueryProvider }
 
-import type { PropsWithChildren } from 'preact/compat'
+import type { PropsWithChildren } from 'react'
 import { QueryClientProvider , QueryClient } from '@tanstack/react-query'
 
 

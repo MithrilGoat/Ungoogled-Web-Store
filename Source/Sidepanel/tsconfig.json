@@ -3,19 +3,12 @@
 
     "compilerOptions" : {
 
-        "jsxImportSource" : "preact" ,
+        "jsxImportSource" : "react" ,
         "jsx" : "react-jsx" ,
 
         "lib" : [ "DOM" , "ESNext" ] ,
 
-        "baseUrl" : "../.." ,
-
-        "paths" : {
-            "react/jsx-runtime" : [ "./node_modules/preact/jsx-runtime" ] ,
-            "react-dom/*" : [ "./node_modules/preact/compat/*" ] ,
-            "react-dom" : [ "./node_modules/preact/compat/" ] ,
-            "react" : [ "./node_modules/preact/compat/" ]
-        }
+        "baseUrl" : "../.."
     },
 
     "include" : [
